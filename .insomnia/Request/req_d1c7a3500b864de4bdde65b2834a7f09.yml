@@ -1,0 +1,37 @@
+_id: req_d1c7a3500b864de4bdde65b2834a7f09
+type: Request
+parentId: fld_36bf211f8c0d461cb65b429070c3bc06
+modified: 1698411920951
+created: 1698411894508
+url: "{{ _.dev_centerForm }}api/mobile/reset-Password-mobile"
+name: reset Password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password":"234566655"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_35bca66b446c42ee86c6ed0a74554b39
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_380c914423f44f3c857af1570601eb60
+  - id: pair_2d46dbc3e43840caab2bedeebc1e39dd
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODkiLCJhY2NvdW50VHlwZSI6IkRJR0lUQUwiLCJlbWFpbCI6IndhbGVlZC5kZUBnbWFpbC5jb20iLCJpYXQiOjE2OTgyMzE5MzB9.FaEvnHBOk1hiIN-X7WLJz1gkHL4xhF2BJjz48fnXY5o
+    description: ""
+authentication: {}
+metaSortKey: -1698220054165
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

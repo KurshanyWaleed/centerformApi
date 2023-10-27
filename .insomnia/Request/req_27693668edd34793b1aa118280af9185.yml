@@ -1,0 +1,37 @@
+_id: req_27693668edd34793b1aa118280af9185
+type: Request
+parentId: fld_26c14b7a87cf493982a67e3da98be51c
+modified: 1698412271983
+created: 1698158737520
+url: "{{ _.dev_local }}api/mobile/verify-code"
+name: verfyCode
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"verificationCode":"8305"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9867e647e6414ee6b2a18fbcae129f1e
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_074c26223fd14a07bd9b4176a0fb5306
+  - id: pair_3d7b27379a7344778b0e1e34445fd6f3
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODciLCJhY2NvdW50VHlwZSI6IkRJR0lUQUwiLCJpYXQiOjE2OTgxNjEzMjd9.nmzvY4GtCIkz-3POEMhOUf_ffW-3YajB4699R0JLpYY
+    description: ""
+authentication: {}
+metaSortKey: -1698218899123
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

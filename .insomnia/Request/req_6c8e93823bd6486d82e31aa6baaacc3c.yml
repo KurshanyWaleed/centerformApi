@@ -1,0 +1,31 @@
+_id: req_6c8e93823bd6486d82e31aa6baaacc3c
+type: Request
+parentId: fld_36bf211f8c0d461cb65b429070c3bc06
+modified: 1698412041896
+created: 1698411894485
+url: "{{ _.dev_centerForm }}_api/mobile/login"
+name: login Mobile 100% digital
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"tojar110584@jybra.com",
+    	"password":"253986"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.3.0
+authentication: {}
+metaSortKey: -1698218899023
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

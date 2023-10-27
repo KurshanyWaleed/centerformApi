@@ -1,0 +1,10 @@
+_id: fld_26c14b7a87cf493982a67e3da98be51c
+type: RequestGroup
+parentId: wrk_c3288077c10b457dbb2e2f0ca73f40f6
+modified: 1698138515135
+created: 1698138515135
+name: locale
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1698138515135
