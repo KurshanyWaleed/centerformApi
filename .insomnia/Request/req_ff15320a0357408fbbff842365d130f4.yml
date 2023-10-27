@@ -1,0 +1,29 @@
+_id: req_ff15320a0357408fbbff842365d130f4
+type: Request
+parentId: fld_26c14b7a87cf493982a67e3da98be51c
+modified: 1698246485807
+created: 1698240268059
+url: localhost:3013/api/mobile/reset-Password-mobile-email-verify
+name: email verification for password
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_5a83b5f68d624a878ddc4dcfb22fa07f
+  - id: pair_1541b73e3c304f37a394a305aaa505bc
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODkiLCJhY2NvdW50VHlwZSI6IkRJR0lUQUwiLCJlbWFpbCI6IndhbGVlZC5kZUBnbWFpbC5jb20iLCJpYXQiOjE2OTgyMzE5MzB9.FaEvnHBOk1hiIN-X7WLJz1gkHL4xhF2BJjz48fnXY5o
+    description: ""
+authentication: {}
+metaSortKey: -1698220054065
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,46 @@
+_id: req_ecb1b28be6d043d5931b5408f32b4728
+type: Request
+parentId: wrk_c3288077c10b457dbb2e2f0ca73f40f6
+modified: 1698137165638
+created: 1698137165638
+url: https://beyang-api.digit-dev.com/api/v1/auth/signup
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "masago8881@deitada.com",
+      "password": "Azerty123",
+      "firstName": "masoud",
+      "lastName": "ben amor",
+    	"relatedCompany":null,
+    	"siretNumber":"34518442800013",
+    	"companyName":"Ant group",
+    	"phoneNumber":"1235896658",
+      "city": null,
+      "address": "paris 14 paris",
+      "postalCode": null,
+      "referralCode": "",
+      "type": "PRO"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ec01e0fe736e4cc3b2132da70271a0e1
+  - id: pair_b78955dfd8c848d8bd817f473cbebc28
+    name: Authorization
+    value: bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MzA2MzlhNGNhYzE4NzIzZTFmNGI4MDQiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE2NjE0MTk0NzUsImV4cCI6MTY2MTQxOTk3NX0.cOxY24OTHm4LTs1g3ZmQTdFZ_mSweV1YErHrfQADiD8
+    description: ""
+authentication: {}
+metaSortKey: -1663582116074
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

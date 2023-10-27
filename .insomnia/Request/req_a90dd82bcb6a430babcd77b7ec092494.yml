@@ -1,0 +1,30 @@
+_id: req_a90dd82bcb6a430babcd77b7ec092494
+type: Request
+parentId: wrk_c3288077c10b457dbb2e2f0ca73f40f6
+modified: 1698137165631
+created: 1698137165631
+url: "{{ _.dev_local }}category/all-categorie-details?active=true"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+     {
+      "page_size": 3,
+      "page_number": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_eaea9b4d259d43d58a768749ed7824ef
+authentication: {}
+metaSortKey: -1662557031687
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

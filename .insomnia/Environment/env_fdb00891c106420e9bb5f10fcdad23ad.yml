@@ -1,0 +1,14 @@
+_id: env_fdb00891c106420e9bb5f10fcdad23ad
+type: Environment
+parentId: env_46cacd9128ff40369cfbd4c789d7be0c
+modified: 1698137165466
+created: 1698137165466
+name: LOCAL
+data:
+  dev_local: http://localhost:3000/api/v1/
+dataPropertyOrder:
+  "&":
+    - dev_local
+color: null
+isPrivate: false
+metaSortKey: 1660833603596

@@ -1,0 +1,34 @@
+_id: req_b5c6617f41db4162ae2383573a3f7939
+type: Request
+parentId: fld_26c14b7a87cf493982a67e3da98be51c
+modified: 1698247588281
+created: 1698162263154
+url: localhost:3013/api/mobile/resent-verify-code
+name: sent and resent verify Code
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_9867e647e6414ee6b2a18fbcae129f1e
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_074c26223fd14a07bd9b4176a0fb5306
+  - id: pair_3d7b27379a7344778b0e1e34445fd6f3
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODkiLCJhY2NvdW50VHlwZSI6IkRJR0lUQUwiLCJlbWFpbCI6IndhbGVlZC5kZUBnbWFpbC5jb20iLCJpYXQiOjE2OTgxNjI1Mzd9.KOZe31EljL2Y0cWBLbS2OT0XWZgBeN1jdi74vzaSeKs
+    description: ""
+authentication: {}
+metaSortKey: -1698218898923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

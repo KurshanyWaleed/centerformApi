@@ -1,0 +1,44 @@
+_id: req_58ca3a18e22848e5a54307ab7543ebf6
+type: Request
+parentId: fld_26c14b7a87cf493982a67e3da98be51c
+modified: 1698246490944
+created: 1698220053965
+url: localhost:3013/api/mobile/registration
+name: Registration
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName": "waleed",
+    	"lastName": "khorchany",
+    	"goal":"losing weight",
+    	"gender":"male",
+    	"age":"30",
+    	"height":"177",
+    	"entryWeight":"92",
+    	"objectiveWeight":"78",
+    	"activity":"not very active"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_7fa5a0506bf540a3bcd2e7837cfb71c8
+  - id: pair_cedee4b837fd4addb6ba85c6c35f3f13
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODkiLCJhY2NvdW50VHlwZSI6IkRJR0lUQUwiLCJlbWFpbCI6IndhbGVlZC5kZUBnbWFpbC5jb20iLCJpYXQiOjE2OTgyMzE5MzB9.FaEvnHBOk1hiIN-X7WLJz1gkHL4xhF2BJjz48fnXY5o
+    description: ""
+authentication: {}
+metaSortKey: -1698218898973
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_e9a946f4a7ea493199ed1113abad3b85
+type: Request
+parentId: wrk_c3288077c10b457dbb2e2f0ca73f40f6
+modified: 1698137165626
+created: 1698137165626
+url: "{{ _.dev_local }}users/poke-pro"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+     "email":"kurshany.waleed@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_239ac0278880446eb03ed5bf77ef512c
+  - id: pair_12ab34eb89b44efc9c2ffb48693e6801
+    name: Authorization
+    value: bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJfaWQiOiI2MzA2MzlhNGNhYzE4NzIzZTFmNGI4MDQiLCJyb2xlIjoiQ2xJRU5UIiwiaWF0IjoxNjYxNDE5NDc1LCJleHAiOjE2NjE0MTk5NzV9.aZXLCUHLzuCUcdEVLwQi6sYWNH84Fu8pjkiPfvkKUtE
+    description: ""
+authentication: {}
+metaSortKey: -1662386470436
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

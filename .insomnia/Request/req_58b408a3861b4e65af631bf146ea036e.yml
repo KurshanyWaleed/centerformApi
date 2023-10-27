@@ -1,0 +1,36 @@
+_id: req_58b408a3861b4e65af631bf146ea036e
+type: Request
+parentId: wrk_c3288077c10b457dbb2e2f0ca73f40f6
+modified: 1698245018722
+created: 1698137322834
+url: https://centerform.digit-dev.com/api/mobile/reset-Password-mobile-verify
+name: login User 100%
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password":"123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/8.3.0
+    id: pair_09cdcd71da504ae2b14a07fbfd8673c3
+  - id: pair_942f0f801ed74dbfb74af093cf986247
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiIxIiwiaWF0IjoxNjk4MDY5ODQ3LCJleHAiOjE2OTgxNTYyNDd9.PMJM_cKS_JmDOTvRQguhJJWbn-8LprUUlmhiR4LEdGw
+    description: ""
+authentication: {}
+metaSortKey: -1698137322834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
